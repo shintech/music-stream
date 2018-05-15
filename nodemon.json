@@ -1,0 +1,5 @@
+{
+  "watch": ["dist", "start.js"],
+  "ignore": ["dist/app"],
+  "ext": "js,json"
+}

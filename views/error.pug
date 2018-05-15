@@ -1,0 +1,11 @@
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/public/css/style.css')
+  body
+    div#error
+      h1.heading= heading
+      div
+        div.status Status: #{status}
+        div.url URL: #{url}
+        div.message Message: #{message}
